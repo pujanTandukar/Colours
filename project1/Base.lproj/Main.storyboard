@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_0" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Avenir.ttc">
+            <string>Avenir-Book</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="project1" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="3aZ-cZ-gvO">
+                                <rect key="frame" x="16" y="30" width="288" height="538"/>
+                                <subviews>
+                                    <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="K7q-BY-o2d">
+                                        <rect key="frame" x="0.0" y="0.0" width="288" height="89.5"/>
+                                        <color key="backgroundColor" red="0.94509803921568625" green="0.5607843137254902" blue="0.0039215686274509803" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <accessibility key="accessibilityConfiguration">
+                                            <accessibilityTraits key="traits" button="YES" playsSound="YES"/>
+                                        </accessibility>
+                                        <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="17"/>
+                                        <state key="normal" title="#F18F01">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <color key="titleShadowColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                <integer key="value" value="0"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="firstButtonPress:" destination="BYZ-38-t0r" eventType="touchUpInside" id="TU0-RF-RuF"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lp6-yS-VG6">
+                                        <rect key="frame" x="0.0" y="89.5" width="288" height="90"/>
+                                        <color key="backgroundColor" red="0.33333333333333331" green="0.78823529411764703" blue="0.6470588235294118" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <accessibility key="accessibilityConfiguration">
+                                            <accessibilityTraits key="traits" button="YES" playsSound="YES"/>
+                                        </accessibility>
+                                        <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="17"/>
+                                        <state key="normal" title="#59C9A5">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <color key="titleShadowColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                <integer key="value" value="0"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="secondButtonPress:" destination="BYZ-38-t0r" eventType="touchUpInside" id="s1q-PW-F8C"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tfQ-Tm-hDh">
+                                        <rect key="frame" x="0.0" y="179.5" width="288" height="89.5"/>
+                                        <color key="backgroundColor" red="0.84705882352941175" green="0.11764705882352941" blue="0.35686274509803922" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <accessibility key="accessibilityConfiguration">
+                                            <accessibilityTraits key="traits" button="YES" playsSound="YES"/>
+                                        </accessibility>
+                                        <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="17"/>
+                                        <state key="normal" title="#D8155B">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            <color key="titleShadowColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                <integer key="value" value="0"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="thirdButtonPress:" destination="BYZ-38-t0r" eventType="touchUpInside" id="FdA-DJ-XsW"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iQN-30-Ofw">
+                                        <rect key="frame" x="0.0" y="269" width="288" height="89.5"/>
+                                        <color key="backgroundColor" red="0.13725490196078433" green="0.22352941176470587" blue="0.70202333537581696" alpha="1" colorSpace="calibratedRGB"/>
+                                        <accessibility key="accessibilityConfiguration">
+                                            <accessibilityTraits key="traits" button="YES" playsSound="YES"/>
+                                        </accessibility>
+                                        <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="17"/>
+                                        <state key="normal" title="#2339B3">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <color key="titleShadowColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                <integer key="value" value="0"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="fourthButtonPress:" destination="BYZ-38-t0r" eventType="touchUpInside" id="OqC-5P-fch"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" tag="5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8Dh-mJ-Rix">
+                                        <rect key="frame" x="0.0" y="358.5" width="288" height="90"/>
+                                        <color key="backgroundColor" red="0.13333333333333333" green="0.55294117647058827" blue="0.31372549019607843" alpha="1" colorSpace="calibratedRGB"/>
+                                        <accessibility key="accessibilityConfiguration">
+                                            <accessibilityTraits key="traits" button="YES" playsSound="YES"/>
+                                        </accessibility>
+                                        <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="17"/>
+                                        <state key="normal" title="#228D50">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            <color key="titleShadowColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                <integer key="value" value="0"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="lastButtonPress:" destination="BYZ-38-t0r" eventType="touchUpInside" id="J86-wI-4SG"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BHd-EE-5ZN">
+                                        <rect key="frame" x="0.0" y="448.5" width="288" height="89.5"/>
+                                        <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="19"/>
+                                        <state key="normal" title="Generate"/>
+                                        <connections>
+                                            <action selector="generateButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="xGN-cs-MwA"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="iQN-30-Ofw" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" id="1p8-EK-K85"/>
+                            <constraint firstItem="tfQ-Tm-hDh" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="3D8-FY-Ga3"/>
+                            <constraint firstItem="lp6-yS-VG6" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" id="3dq-XG-Vm6"/>
+                            <constraint firstItem="iQN-30-Ofw" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="6bL-NB-HRi"/>
+                            <constraint firstItem="8Dh-mJ-Rix" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" id="LvA-96-4oh"/>
+                            <constraint firstItem="K7q-BY-o2d" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" id="OGR-db-E5e"/>
+                            <constraint firstItem="3aZ-cZ-gvO" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="10" id="Uld-bp-59H"/>
+                            <constraint firstItem="BHd-EE-5ZN" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" id="ZqG-d6-7mk"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="3aZ-cZ-gvO" secondAttribute="bottom" id="cj9-YX-FFj"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="3aZ-cZ-gvO" secondAttribute="trailing" id="hCD-Ay-TVf"/>
+                            <constraint firstItem="8Dh-mJ-Rix" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="i6L-RY-MEw"/>
+                            <constraint firstItem="tfQ-Tm-hDh" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" id="icq-4e-I5k"/>
+                            <constraint firstItem="BHd-EE-5ZN" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="j6m-K8-9OX"/>
+                            <constraint firstItem="3aZ-cZ-gvO" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="oTE-9D-BKJ"/>
+                            <constraint firstItem="K7q-BY-o2d" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="pOa-hd-cTz"/>
+                            <constraint firstItem="lp6-yS-VG6" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="zAT-Ng-s0k"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="button1" destination="K7q-BY-o2d" id="e5N-Yx-Tas"/>
+                        <outlet property="button2" destination="lp6-yS-VG6" id="uYM-I6-w7x"/>
+                        <outlet property="button3" destination="tfQ-Tm-hDh" id="jeR-Ek-LL1"/>
+                        <outlet property="button4" destination="iQN-30-Ofw" id="98A-Mj-pf2"/>
+                        <outlet property="button5" destination="8Dh-mJ-Rix" id="5vm-6x-ps2"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="125" y="152.34375"/>
+        </scene>
+    </scenes>
+</document>
